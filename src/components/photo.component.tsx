@@ -9,7 +9,7 @@ export const Photo = () => {
 }
 
 const PhotoComponent = styled.img`
-    width: 300px;
-    height: 190px;
-    padding: 10px 10px 0 10px;
+    //max-width: 280px;
+    width: 100%;
+    height: 170px;
 `
