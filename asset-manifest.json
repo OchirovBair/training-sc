@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/training-sc/static/css/main.31d6cfe0.css",
+    "main.js": "/training-sc/static/js/main.fdab02e9.js",
+    "static/js/787.52a4a600.chunk.js": "/training-sc/static/js/787.52a4a600.chunk.js",
+    "static/media/photo.png": "/training-sc/static/media/photo.fd6f555a7e29f3d71334.png",
+    "index.html": "/training-sc/index.html",
+    "main.fdab02e9.js.map": "/training-sc/static/js/main.fdab02e9.js.map",
+    "787.52a4a600.chunk.js.map": "/training-sc/static/js/787.52a4a600.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.fdab02e9.js"
+  ]
+}
