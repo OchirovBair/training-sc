@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {ButtonDiv, MainDiv, TextDiv} from './components/div.component';
+import {Photo} from './components/photo.component';
+import {Header} from './components/header.component';
+import {Text} from './components/text.component';
+import {FirstButton, SecondButton} from './components/button.component';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <MainDiv>
+            <Photo/>
+            <TextDiv>
+                <Header/>
+                <Text/>
+                <ButtonDiv>
+                    <FirstButton bgcColor={'#4E71FE'} textColor={'#fff'}/>
+                    <SecondButton textColor={'#4E71FE'}/>
+                </ButtonDiv>
+            </TextDiv>
+        </MainDiv>
+    );
 }
 
 export default App;
+
+
+
+//1) Не скукоживается карточка
+//2) снизу под кнопками захаркодил маржин, если его убрать то общая высота карточки как будто меньше
