@@ -15,7 +15,6 @@ const ButtonComponent = styled.button<ButtonComponentPropsType>`
     font-size: 10px;
     font-weight: 700;
     line-height: 20px;
-    border-radius: 5px;
     border: 2px solid #4E71FE;
     margin-top: 20px;
     

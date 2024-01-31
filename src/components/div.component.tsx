@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
     max-height: 350px;
     border-radius: 15px;
     background: #FFF;
-    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, 0.10);
     display: flex;
     flex-direction: column;
     
