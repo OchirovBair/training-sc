@@ -13,13 +13,13 @@ export const MainDiv = styled.div`
     
 `
 
-export const TextDiv = styled.div`
+export const ContentDiv = styled.div`
     display: flex;
     flex-direction: column;
     padding: 20px 10px 10px 10px;
 `
 
-export const ButtonDiv = styled.div`
+export const ButtonsDiv = styled.div`
     display: flex;
     gap: 12px;
 `

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {ButtonDiv, MainDiv, TextDiv} from './components/div.component';
+import {ButtonsDiv, MainDiv, ContentDiv} from './components/div.component';
 import {Photo} from './components/photo.component';
 import {Header} from './components/header.component';
 import {Text} from './components/text.component';
@@ -10,14 +10,14 @@ function App() {
     return (
         <MainDiv>
             <Photo/>
-            <TextDiv>
+            <ContentDiv>
                 <Header/>
                 <Text/>
-                <ButtonDiv>
+                <ButtonsDiv>
                     <FirstButton bgcColor={'#4E71FE'} textColor={'#fff'}/>
                     <SecondButton textColor={'#4E71FE'}/>
-                </ButtonDiv>
-            </TextDiv>
+                </ButtonsDiv>
+            </ContentDiv>
         </MainDiv>
     );
 }
@@ -26,7 +26,9 @@ export default App;
 
 
 
-//1) Не скукоживается карточка
-//2) снизу под кнопками захаркодил маржин, если его убрать то общая высота карточки как будто меньше
-//3) когда после каких либо изменений в проекте я деплою через npm. А как же комиты и коментарии к изменениям?
-//4) Папки .idea нет. Она была в папке it-incubator, а не в папке ReactProjects. Я ее удалил из it-incubator. Должна ли она быть в ReactProjects
+/*
+1) Есть контейнер div главный у карточки. В нем к заголовок, текст и кнопки в своем div кнопочном. Отступы от краев карточки сделать лучше padding у div главного? Отступы по вертикали между заголовком, текстом и кнопками делать у самих элементов или у к примеру div кнопочного?
+2) Между блоком Photo и блоком ContentDiv задать маржин боттом у картинки или маржин топ у блока ContentDiv или сделать паддинг у ContentDiv?
+3) Также внизу у кнопок на макете есть зазор до низа карточки в 20px. Его лучше сделать паддинг у всей картоки в 10px + паддинг у блока ContentDiv в 10px?
+4) Почему лучше задать маржин боттон между элементами, к примеру между Header и Text, а не маржин топ?
+*/

@@ -16,7 +16,7 @@ const ButtonComponent = styled.button<ButtonComponentPropsType>`
     font-weight: 700;
     line-height: 20px;
     border: 2px solid #4E71FE;
-    margin-top: 20px;
+    
     
     &:hover {
         transform: translateY(-5px);
